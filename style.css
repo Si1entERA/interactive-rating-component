@@ -40,6 +40,8 @@ main {
   /* display: none; */
 }
 
+
+
 /*************** TOP START  ****************/
 .top {
   display: flex;
@@ -130,7 +132,14 @@ button {
 /*************** THANK YOU TOP START  ****************/
 .thank-you-top, .thank-you-middle, .thank-you-bottom{
   /* border: 1px solid green; */
+  /* display: none; */
+}
+
+.thank-you-state-section{
   display: none;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .thank-you-top {
